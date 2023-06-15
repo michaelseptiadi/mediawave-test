@@ -1,5 +1,5 @@
 <template>
-    <div class="row mt-8">
+    <div class="row mt-8" id="chart">
       <highchart
         :options="chartOptions"
         :modules="['exporting']"

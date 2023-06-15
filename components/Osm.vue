@@ -1,10 +1,9 @@
 <template>
-  <div>
-  <h1 class="text-3xl bold text-center my-8">Peta Bandara Turki</h1>
+  <div id="maps">
   <ol-map
     :loadTilesWhileAnimating="true"
     :loadTilesWhileInteracting="true"
-    style="height: 400px"
+    style="height: 600px"
   >
     <ol-view
       ref="view"
